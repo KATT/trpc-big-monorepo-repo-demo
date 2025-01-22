@@ -1,7 +1,4 @@
 {
   "extends": ["@org/tsconfig/react.json"],
-  "references": [
-    { "path": "../../packages/api" },
-    { "path": "../../packages/trpc" }
-  ]
+  "references": [{ "path": "../../packages/api" }]
 }
