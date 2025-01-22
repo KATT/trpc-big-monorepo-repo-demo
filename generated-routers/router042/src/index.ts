@@ -1,12 +1,12 @@
-import { z } from 'zod'
+import { z } from 'zod';
 
-import { publicProcedure, router } from '@org/trpc'
+import { publicProcedure, router } from '@org/trpc';
 
 // Recursive nightmare types
-type DeepNestedType = { [K: string]: DeepNestedType | unknown }
+type DeepNestedType = { [K: string]: DeepNestedType | unknown };
 const DeepRecursiveSchema: z.ZodType<DeepNestedType> = z.lazy(() =>
   z.record(z.union([DeepRecursiveSchema, z.unknown()])),
-)
+);
 
 const InfiniteTreeSchema: z.ZodType<any> = z.lazy(() =>
   z.object({
@@ -20,7 +20,7 @@ const InfiniteTreeSchema: z.ZodType<any> = z.lazy(() =>
     right: z.lazy(() => InfiniteTreeSchema).optional(),
     metadata: z.record(z.lazy(() => InfiniteTreeSchema)),
   }),
-)
+);
 
 // Complex type utilities
 const createPolymorphicSchema = <T extends z.ZodTypeAny>(baseSchema: T) =>
@@ -29,10 +29,10 @@ const createPolymorphicSchema = <T extends z.ZodTypeAny>(baseSchema: T) =>
     z.array(baseSchema),
     z.record(baseSchema),
     z.function().args(baseSchema).returns(z.promise(baseSchema)),
-  ])
+  ]);
 
 const createNestedDiscriminatedUnion = (depth: number): z.ZodType<any> => {
-  if (depth <= 0) return z.string()
+  if (depth <= 0) return z.string();
   return z.discriminatedUnion('type', [
     z.object({
       type: z.literal('LEAF'),
@@ -44,8 +44,8 @@ const createNestedDiscriminatedUnion = (depth: number): z.ZodType<any> => {
         z.lazy(() => createNestedDiscriminatedUnion(depth - 1)),
       ),
     }),
-  ])
-}
+  ]);
+};
 
 export const router042 = router({
   foo: publicProcedure.query(() => 'bar' as const),
@@ -222,4 +222,4 @@ export const router042 = router({
         ),
     },
   },
-})
+});
