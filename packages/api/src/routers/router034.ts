@@ -47,7 +47,7 @@ const createNestedDiscriminatedUnion = (depth: number): z.ZodType<any> => {
   ]);
 };
 
-export const __ROUTER__NAME__ = router({
+export const router034 = router({
   foo: publicProcedure.query(() => 'bar' as const),
   quantum: {
     superposition: {

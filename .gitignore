@@ -135,7 +135,7 @@ dist
 # misc
 .todo
 out-types/
-packages/api/src/routers
+# packages/api/src/routers
 .DS_Store
 
 

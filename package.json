@@ -10,13 +10,14 @@
     "dev": "turbo watch build",
     "format": "prettier \"**/*\" --ignore-unknown --list-different --write",
     "lint:md": "markdownlint \"**/*.md\" --dot --ignore node_modules --ignore .changeset",
-    "root:codegen": "tsx scripts/codegen.ts && pnpm format"
+    "root:codegen": "tsx scripts/codegen.ts",
+    "postinstall": "pnpm codegen"
   },
   "prettier": {
     "arrowParens": "always",
     "jsxSingleQuote": true,
     "printWidth": 80,
-    "semi": false,
+    "semi": true,
     "singleQuote": true,
     "trailingComma": "all"
   },
