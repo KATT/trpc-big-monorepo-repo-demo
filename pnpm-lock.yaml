@@ -193,13 +193,13 @@ importers:
         version: 5.64.2(react@18.3.1)
       '@trpc/client':
         specifier: next
-        version: 11.0.0-rc.711(@trpc/server@11.0.0-rc.711(typescript@5.7.3))(typescript@5.7.3)
+        version: 11.0.0-rc.714(@trpc/server@11.0.0-rc.714(typescript@5.7.3))(typescript@5.7.3)
       '@trpc/react-query':
         specifier: next
-        version: 11.0.0-rc.711(@tanstack/react-query@5.64.2(react@18.3.1))(@trpc/client@11.0.0-rc.711(@trpc/server@11.0.0-rc.711(typescript@5.7.3))(typescript@5.7.3))(@trpc/server@11.0.0-rc.711(typescript@5.7.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
+        version: 11.0.0-rc.714(@tanstack/react-query@5.64.2(react@18.3.1))(@trpc/client@11.0.0-rc.714(@trpc/server@11.0.0-rc.714(typescript@5.7.3))(typescript@5.7.3))(@trpc/server@11.0.0-rc.714(typescript@5.7.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -233,7 +233,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -252,7 +252,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -271,7 +271,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -290,7 +290,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -309,7 +309,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -328,7 +328,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -347,7 +347,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -366,7 +366,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -385,7 +385,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -404,7 +404,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -423,7 +423,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -442,7 +442,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -461,7 +461,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -480,7 +480,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -499,7 +499,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -518,7 +518,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -537,7 +537,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -556,7 +556,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -575,7 +575,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -594,7 +594,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -613,7 +613,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -632,7 +632,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -651,7 +651,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -670,7 +670,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -689,7 +689,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -708,7 +708,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -727,7 +727,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -746,7 +746,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -765,7 +765,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -784,7 +784,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -803,7 +803,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -822,7 +822,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -841,7 +841,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -860,7 +860,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -879,7 +879,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -898,7 +898,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -917,7 +917,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -936,7 +936,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -955,7 +955,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -974,7 +974,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -993,7 +993,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -1012,7 +1012,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -1031,7 +1031,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -1050,7 +1050,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -1069,7 +1069,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -1088,7 +1088,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -1107,7 +1107,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -1126,7 +1126,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -1145,7 +1145,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -1164,7 +1164,7 @@ importers:
         version: link:../../packages/trpc
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -1333,13 +1333,13 @@ importers:
         version: link:../trpc
       '@trpc/client':
         specifier: next
-        version: 11.0.0-rc.711(@trpc/server@11.0.0-rc.711(typescript@5.7.3))(typescript@5.7.3)
+        version: 11.0.0-rc.714(@trpc/server@11.0.0-rc.714(typescript@5.7.3))(typescript@5.7.3)
       '@trpc/react-query':
         specifier: next
-        version: 11.0.0-rc.711(@tanstack/react-query@5.64.2(react@18.3.1))(@trpc/client@11.0.0-rc.711(@trpc/server@11.0.0-rc.711(typescript@5.7.3))(typescript@5.7.3))(@trpc/server@11.0.0-rc.711(typescript@5.7.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
+        version: 11.0.0-rc.714(@tanstack/react-query@5.64.2(react@18.3.1))(@trpc/client@11.0.0-rc.714(@trpc/server@11.0.0-rc.714(typescript@5.7.3))(typescript@5.7.3))(@trpc/server@11.0.0-rc.714(typescript@5.7.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -1355,7 +1355,7 @@ importers:
     dependencies:
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.711(typescript@5.7.3)
+        version: 11.0.0-rc.714(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -1844,24 +1844,24 @@ packages:
     peerDependencies:
       react: ^18 || ^19
 
-  '@trpc/client@11.0.0-rc.711':
-    resolution: {integrity: sha512-m3uFfgEW+hbxA2IS4q238fTfT4hJFwz6Y4FQUfrgj3395W1afaOoUbF3S970jG9Gf/VTlIfTG8pQ1sTrZ7Uwug==}
+  '@trpc/client@11.0.0-rc.714':
+    resolution: {integrity: sha512-HgCLAY9kCWg04VAh8TasfsJqz56+5nC0vaHETKaCZ8HNBLjmohNXBHtOQMLKeT8Aordv0Ni0DgIyfcHze/VpuA==}
     peerDependencies:
-      '@trpc/server': 11.0.0-rc.711+e82d26126
+      '@trpc/server': 11.0.0-rc.714+9ed47ef3c
       typescript: '>=5.7.2'
 
-  '@trpc/react-query@11.0.0-rc.711':
-    resolution: {integrity: sha512-cVmVpLXDxuuvUFB1MC/Yyk1UVHPDwOWC68PgYRVG04o4lAb4l9g0F5g9vztOqdiDc5raSI2bFPbcnYrUncnZJw==}
+  '@trpc/react-query@11.0.0-rc.714':
+    resolution: {integrity: sha512-wZ+rZKZhHMG7/FL5IFsQlxdudFQnswiBRTzu/enOwuvLufqG3f/sJBUNZT9KE0E0BiG+LpA6FaLXQdt75VdGbA==}
     peerDependencies:
       '@tanstack/react-query': ^5.62.8
-      '@trpc/client': 11.0.0-rc.711+e82d26126
-      '@trpc/server': 11.0.0-rc.711+e82d26126
+      '@trpc/client': 11.0.0-rc.714+9ed47ef3c
+      '@trpc/server': 11.0.0-rc.714+9ed47ef3c
       react: '>=18.2.0'
       react-dom: '>=18.2.0'
       typescript: '>=5.7.2'
 
-  '@trpc/server@11.0.0-rc.711':
-    resolution: {integrity: sha512-dGaMXLFJaLg1XWGRQ3ZQp2dkq7Od6u+9DOrp+fn0s88sZW57eEhX2MOxWpFp5z9xLZNN0Hq5G6/4QtR0iMUVcw==}
+  '@trpc/server@11.0.0-rc.714':
+    resolution: {integrity: sha512-HFkh429t4pSkZuXtoEQ1YrhB+vfZXrhrVYE0fwxGCDaaRhlk4HI8o9/Rv9NrxtMTkiE2OEdnY7P5AN38zh74OA==}
     peerDependencies:
       typescript: '>=5.7.2'
 
@@ -3015,21 +3015,21 @@ snapshots:
       '@tanstack/query-core': 5.64.2
       react: 18.3.1
 
-  '@trpc/client@11.0.0-rc.711(@trpc/server@11.0.0-rc.711(typescript@5.7.3))(typescript@5.7.3)':
+  '@trpc/client@11.0.0-rc.714(@trpc/server@11.0.0-rc.714(typescript@5.7.3))(typescript@5.7.3)':
     dependencies:
-      '@trpc/server': 11.0.0-rc.711(typescript@5.7.3)
+      '@trpc/server': 11.0.0-rc.714(typescript@5.7.3)
       typescript: 5.7.3
 
-  '@trpc/react-query@11.0.0-rc.711(@tanstack/react-query@5.64.2(react@18.3.1))(@trpc/client@11.0.0-rc.711(@trpc/server@11.0.0-rc.711(typescript@5.7.3))(typescript@5.7.3))(@trpc/server@11.0.0-rc.711(typescript@5.7.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)':
+  '@trpc/react-query@11.0.0-rc.714(@tanstack/react-query@5.64.2(react@18.3.1))(@trpc/client@11.0.0-rc.714(@trpc/server@11.0.0-rc.714(typescript@5.7.3))(typescript@5.7.3))(@trpc/server@11.0.0-rc.714(typescript@5.7.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)':
     dependencies:
       '@tanstack/react-query': 5.64.2(react@18.3.1)
-      '@trpc/client': 11.0.0-rc.711(@trpc/server@11.0.0-rc.711(typescript@5.7.3))(typescript@5.7.3)
-      '@trpc/server': 11.0.0-rc.711(typescript@5.7.3)
+      '@trpc/client': 11.0.0-rc.714(@trpc/server@11.0.0-rc.714(typescript@5.7.3))(typescript@5.7.3)
+      '@trpc/server': 11.0.0-rc.714(typescript@5.7.3)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       typescript: 5.7.3
 
-  '@trpc/server@11.0.0-rc.711(typescript@5.7.3)':
+  '@trpc/server@11.0.0-rc.714(typescript@5.7.3)':
     dependencies:
       typescript: 5.7.3
 
