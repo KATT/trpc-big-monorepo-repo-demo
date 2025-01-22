@@ -10,9 +10,9 @@ const apiPkgDir = path.join(rootDir, 'packages/api')
 
 // Modify this is if you want to try bigger routers
 // Each router will have 5 procedures + a small sub-router with 2 procedures
-const NUM_ROUTERS = 50
+const NUM_ROUTERS = 1
 
-const PACKAGES_DIR = path.join(__dirname, '../generated-routers')
+const PACKAGES_DIR = path.join(apiPkgDir, 'src/routers')
 if (!fs.existsSync(PACKAGES_DIR)) {
   fs.mkdirSync(PACKAGES_DIR, { recursive: true })
 }
@@ -34,41 +34,31 @@ const routerPackages: Set<string> = new Set(
   ),
 )
 for (const routerName of routerPackages) {
-  const packageDir = path.join(PACKAGES_DIR, routerName)
+  const routerFile = path.join(PACKAGES_DIR, `${routerName}.ts`)
 
-  const srcDir = path.join(packageDir, 'src')
-
-  // Create package directory structure
-  fs.mkdirSync(packageDir, { recursive: true })
-  fs.mkdirSync(srcDir, { recursive: true })
-
-  // Create package.json
-  const routerPackageJson = packageJson.replace(/__ROUTER__NAME__/g, routerName)
-  fs.writeFileSync(path.join(packageDir, 'package.json'), routerPackageJson)
-
-  // Create index.ts with router implementation
+  // Create router file directly without package structure
   const routerCode = codegenBase.replace('__ROUTER__NAME__', routerName)
-  fs.writeFileSync(path.join(srcDir, 'index.ts'), routerCode)
-
-  fs.writeFileSync(
-    path.join(packageDir, 'tsconfig.json'),
-    fs.readFileSync(path.join(apiPkgDir, 'tsconfig.json'), 'utf-8'),
-  )
+  fs.writeFileSync(routerFile, routerCode)
 }
 
-// Remove all folders in generated-routers that isn't in routerPackages
+// Remove all files in routers that aren't in routerPackages
 const generatedRouters = fs.readdirSync(PACKAGES_DIR)
 for (const router of generatedRouters) {
-  if (!router.startsWith('.') && !routerPackages.has(router)) {
-    fs.rmdirSync(path.join(PACKAGES_DIR, router), { recursive: true })
+  if (
+    !router.startsWith('.') &&
+    !routerPackages.has(router.replace('.ts', ''))
+  ) {
+    fs.unlinkSync(path.join(PACKAGES_DIR, router))
   }
 }
 
-// Create root package that exports all routers
+// Update root index file to import from local router files
 const rootIndexFile = `
 import { router } from '@org/trpc';
 
-${[...routerPackages].map((name) => `import { ${name} } from '@org/${name}';`).join('\n')}
+${[...routerPackages]
+  .map((name) => `import { ${name} } from './routers/${name}';`)
+  .join('\n')}
 
 export const appRouter = router({
   ${[...routerPackages].join(',\n  ')}
@@ -78,35 +68,6 @@ export type AppRouter = typeof appRouter;
 `.trim()
 
 fs.writeFileSync(path.join(apiPkgDir, 'src/index.ts'), rootIndexFile)
-
-// Add generated router packages as dependencies to api package.json
-function updateApiPackageJsonDependencies(dir: string) {
-  const apiPackageJsonPath = path.join(dir, 'package.json')
-  const apiPackageJson = JSON.parse(
-    fs.readFileSync(apiPackageJsonPath, 'utf-8'),
-  )
-
-  // Remove any existing @org/router dependencies
-  for (const dep in apiPackageJson.dependencies) {
-    if (dep.startsWith('@org/router')) {
-      delete apiPackageJson.dependencies[dep]
-    }
-  }
-
-  // Add each router package as a dependency
-  for (const routerName of routerPackages) {
-    apiPackageJson.dependencies[`@org/${routerName}`] = 'workspace:*'
-  }
-
-  // Write updated package.json
-  fs.writeFileSync(
-    apiPackageJsonPath,
-    JSON.stringify(apiPackageJson, null, 2) + '\n',
-  )
-}
-
-updateApiPackageJsonDependencies(apiPkgDir)
-updateApiPackageJsonDependencies(path.join(rootDir, 'apps/web'))
 
 // Stalls the process smh
 // try {

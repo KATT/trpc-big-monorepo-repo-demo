@@ -1,7 +1,7 @@
-import { router001Api } from './generated-trpc-client/router001'
+import { trpcReact } from './lib/trpc'
 
 export function App() {
-  const q1 = router001Api.foo.useQuery()
+  const q1 = trpcReact.router001.foo.useQuery()
   //                       ^?
   // go to references work ^^^ if you use the version of typescript from the monorepo
 

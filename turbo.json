@@ -5,17 +5,10 @@
       "cache": true,
       "persistent": false,
       "inputs": ["./scripts/**/*"],
-      "outputs": ["generated-routers/**", "packages/api/package.json"]
-    },
-    "codegen-clients": {
-      "dependsOn": ["//#root:codegen"],
-      "cache": true,
-      "persistent": false,
-      "inputs": ["./scripts/**/*"],
-      "outputs": ["src/generated-trpc-clients/**"]
+      "outputs": ["packages/api/src/routers/**"]
     },
     "build": {
-      "dependsOn": ["^build", "//#root:codegen", "codegen-clients"],
+      "dependsOn": ["^build", "//#root:codegen"],
       "inputs": ["$TURBO_DEFAULT$", ".env*"],
       "outputs": [
         ".next/**",
