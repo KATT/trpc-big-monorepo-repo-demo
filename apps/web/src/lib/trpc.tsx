@@ -9,7 +9,7 @@ import superjson from 'superjson';
 
 import { type AppRouter } from '@org/api';
 
-export const trpcReact = createTRPCReact<typeof AppRouter>();
+export const trpcReact = createTRPCReact<AppRouter>();
 
 function getBaseUrl() {
   if (typeof window !== 'undefined') {
