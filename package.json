@@ -1,0 +1,35 @@
+{
+  "name": "org",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "turbo build",
+    "clean": "rimraf -g **/*.tsbuildinfo **/.turbo **/dist generated-routers && pnpm codegen && pnpm i",
+    "codegen": "turbo run root:codegen",
+    "dev": "turbo watch build",
+    "format": "prettier \"**/*\" --ignore-unknown --list-different --write",
+    "lint:md": "markdownlint \"**/*.md\" --dot --ignore node_modules --ignore .changeset",
+    "root:codegen": "tsx scripts/codegen.ts && pnpm format"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "jsxSingleQuote": true,
+    "printWidth": 80,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "dependencies": {
+    "@org/tsconfig": "workspace:^",
+    "@types/bun": "^1.1.11",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.3.3",
+    "prettier-plugin-packagejson": "^2.5.3",
+    "rimraf": "^6.0.1",
+    "tsx": "^4.19.2",
+    "turbo": "^2.3.3",
+    "typescript": "npm:@kitchensink/typescript-pr60005@latest"
+  },
+  "packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c"
+}
