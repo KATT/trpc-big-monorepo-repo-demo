@@ -21,7 +21,8 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "superjson": "^2.2.1",
-    "@org/api": "workspace:*"
+    "@org/api": "workspace:*",
+    "@org/router001": "workspace:*"
   },
   "devDependencies": {
     "@org/tsconfig": "workspace:*",
