@@ -2,6 +2,6 @@
   "extends": ["@org/tsconfig/base.json"],
   "references": [
     { "path": "../trpc" },
-    { "path": "../generated-routers/router001" }
+    { "path": "../../generated-routers/router001" }
   ]
 }
