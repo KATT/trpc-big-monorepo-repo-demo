@@ -1,3 +1,11 @@
 {
-  "extends": ["@org/tsconfig/base.json"]
+  "extends": ["@org/tsconfig/base.json"],
+  "files": [],
+
+  "references": [
+    { "path": "./packages/trpc" },
+    { "path": "./packages/api" },
+    { "path": "./apps/web" },
+    { "path": "./generated-routers/router001" }
+  ]
 }

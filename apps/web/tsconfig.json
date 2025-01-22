@@ -1,10 +1,9 @@
 {
   "extends": ["@org/tsconfig/react.json"],
-  "compilerOptions": {
-    "outDir": "./dist",
-    "noEmit": false,
-    "emitDeclarationOnly": true,
-    "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo"
-  },
-  "include": ["vite.config.ts", "src/**/*", "scripts"]
+  "compilerOptions": {},
+  "references": [
+    { "path": "../../packages/api" },
+    { "path": "../../packages/trpc" },
+    { "path": "../../generated-routers/router001" }
+  ]
 }
