@@ -2,7 +2,6 @@
   "extends": ["@org/tsconfig/react.json"],
   "references": [
     { "path": "../../packages/api" },
-    { "path": "../../packages/trpc" },
-    { "path": "../../generated-routers/router001" }
+    { "path": "../../packages/trpc" }
   ]
 }

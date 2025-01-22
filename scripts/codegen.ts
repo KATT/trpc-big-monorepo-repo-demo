@@ -55,7 +55,14 @@ for (const routerName of routerPackages) {
 
   fs.writeFileSync(
     path.join(packageDir, 'tsconfig.json'),
-    fs.readFileSync(path.join(apiPkgDir, 'tsconfig.json'), 'utf-8'),
+    JSON.stringify(
+      {
+        extends: ['@org/tsconfig/base.json'],
+        references: [{ path: '../../packages/trpc' }],
+      },
+      null,
+      2,
+    ),
   );
 }
 

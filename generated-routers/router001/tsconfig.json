@@ -1,4 +1,8 @@
 {
   "extends": ["@org/tsconfig/base.json"],
-  "references": [{ "path": "../packages/trpc" }]
+  "references": [
+    {
+      "path": "../../packages/trpc"
+    }
+  ]
 }
