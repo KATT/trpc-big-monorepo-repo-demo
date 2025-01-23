@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "turbo build",
+    "build": "turbo build --summarize",
     "clean": "rimraf -g **/*.tsbuildinfo **/.turbo **/dist generated-routers && pnpm codegen && pnpm i",
     "codegen": "turbo run root:codegen",
     "dev": "turbo watch build",
