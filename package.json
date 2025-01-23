@@ -10,7 +10,7 @@
     "dev": "turbo watch build",
     "format": "prettier \"**/*\" --ignore-unknown --list-different --write",
     "lint:md": "markdownlint \"**/*.md\" --dot --ignore node_modules --ignore .changeset",
-    "root:codegen": "tsx scripts/codegen.ts && pnpm format"
+    "root:codegen": "tsx scripts/codegen.ts && pnpm i && pnpm format"
   },
   "prettier": {
     "arrowParens": "always",
